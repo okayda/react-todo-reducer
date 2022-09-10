@@ -1,0 +1,28 @@
+.edit_title {
+  margin-bottom: 1.6rem;
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+.edit_title {
+  color: #fff;
+}
+
+.edit_input {
+  width: 100%;
+  font-size: 1.8rem;
+  padding: 0.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.edit_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit_btn_container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.6rem;
+}

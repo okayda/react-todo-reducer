@@ -1,0 +1,33 @@
+.container {
+  padding: 1.6rem 0;
+  margin: 0 auto;
+  max-width: 40rem;
+  background-color: #ffd43b;
+  overflow: auto;
+  max-height: 55rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 0.8rem;
+  list-style: none;
+}
+
+.list li {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  border-radius: 0.4rem;
+  font-size: 1.7rem;
+  word-wrap: break-word;
+  background-color: #fff;
+  padding: 0.8rem 0.6rem;
+}
+
+.btn_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}

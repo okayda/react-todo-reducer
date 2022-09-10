@@ -1,0 +1,41 @@
+.add_btn,
+.btn_edit,
+.btn_delete,
+.btn_update,
+.btn_cancel {
+  border: 2px solid #000;
+
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s;
+  background-color: #ffc078;
+}
+
+.add_btn {
+  gap: 0.4rem;
+  font-weight: bold;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.5rem;
+  border-radius: 100px;
+  margin-bottom: 1.6rem;
+}
+
+.btn_edit,
+.btn_delete,
+.btn_update,
+.btn_cancel {
+  gap: 0.6rem;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+}
+
+.add_btn:hover,
+.btn_edit:hover,
+.btn_delete:hover,
+.btn_update:hover,
+.btn_cancel:hover {
+  background-color: #ffa94d;
+}
